@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "mocha": "^10.2.0"
-  }
+  },
+  "name": "practice-for-week-02-pojo",
+  "description": "App Academy POJO Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariko971/practice-for-week-02-pojo.git"
+  },
+  "author": "Mariko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariko971/practice-for-week-02-pojo/issues"
+  },
+  "homepage": "https://github.com/mariko971/practice-for-week-02-pojo#readme"
 }

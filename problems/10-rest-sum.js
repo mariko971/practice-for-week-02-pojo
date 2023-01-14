@@ -10,7 +10,11 @@ restSum(0); // => 0
 ***********************************************************************/
 
 function restSum(...otherNums) {
-  // Your code here
+  let sum = otherNums.reduce(function (acc, cur) {
+    return acc + cur;
+  }, 0);
+
+  return sum;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
